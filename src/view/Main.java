@@ -46,7 +46,7 @@ public class Main {
         controller.criarJogo(rodadas.get(1), grupoA.getTimes().get(1), grupoA.getTimes().get(2));
         controller.criarJogo(rodadas.get(1), grupoB.getTimes().get(1), grupoB.getTimes().get(2));
 
-        // Simule os resultados dos jogos e registre-os
+        // Simulando os resultados dos jogos e registrando-os
         System.out.println("Simule os resultados dos jogos:");
         for (Rodada rodada : rodadas) {
             List<Jogo> jogos = rodada.getJogos();
